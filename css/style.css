@@ -1,0 +1,27 @@
+* {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cart-logo{
+    display: flex;
+    width: 300px;
+    justify-content: left;
+    border: 2px solid black ;
+}
+.img-logo{
+    display: flex;
+    width: 50%;
+}
+.img-logo img {
+    width: 40px;
+    height: 40px;
+}
+.title-cart{
+    display: flex;
+    width: 50%;
+   
+}
+.title-cart h1{
+    ;
+}
+
