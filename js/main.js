@@ -6,7 +6,10 @@ var valuecount
 var price = document.getElementById("price").innerText;
 
 //price calculating function
-
+function totalprice() {
+    var total = valuecount * price;
+    document.getElementById("price").innerText = total
+}
 
 //plus button
 document.querySelector(".plus-btn").addEventListener("click",function() {
@@ -17,8 +20,12 @@ document.querySelector(".plus-btn").addEventListener("click",function() {
         document.querySelector(".minus-btn").removeAttribute("disabled");
         document.querySelector(".minus-btn").classList.remove("disabled")
     }
+
+    //calling price function
+totalprice()
+
 })
-//taking price variable
+
 
 
 //plus button
@@ -29,4 +36,17 @@ document.querySelector(".minus-btn").addEventListener("click",function() {
     if(valuecount == 1) {
         document.querySelector(".minus-btn").setAttribute("disabled", "disabled")
     }
+    //calling price function
+    totalprice()
 })
+
+
+
+
+test2.onclick = remove;
+
+function remove(){
+    this.remove
+}
+    
+}
