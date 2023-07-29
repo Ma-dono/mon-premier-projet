@@ -1,2 +1,79 @@
+*{
+margin: 10px;
+}
+.cart-logo{
+    display: flex;
+    flex-direction: column;
+}
+.cart-logo img{
+    width: 100px;
+    height: 100px;
+}
+.cart-logo h1{
+    font-size: xx-large;
+}
+table{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 1000px;
+    background-color:;
+    ;    
+} 
 
+th{
+    height: 60px;
+    background-color:;
+}
+.npro{
+    width: 400px;
+    height: 200px;
+    background-color: ;
+    
+    
+  
+   
+}
+.npro span{
+    font-size: larger;
+    
+}
+.npro-img img{
+    width: 100px;
+    height: 150px;
+}
 
+.npro div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+}
+
+.spro{
+    width: 70px;
+    background-color:;
+}
+.spro span{
+    padding-left: 20px;
+} 
+.qpro{
+    width: 150px;
+    background-color: ;
+}
+.qpro span{
+    padding-left: 50px;
+
+}
+.rpro{
+    width: 150px;
+    background-color:;
+}
+.rpro span{
+   padding-left: 50px;
+}
+.ppro{
+    width: 100px;
+    background-color: ;
+}
+.ppro span{
+   padding-left: 30px;
+}
