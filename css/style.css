@@ -55,6 +55,8 @@ th{
 .npro-img img{
     width: 60px;
     height: 80px;
+    border: 2px solid gray;
+    border-radius: 7px;
 }
 
 .npro div{
@@ -72,6 +74,7 @@ th{
 .spro span{
     padding: 15px;
     border: 2px solid gray;
+    border-radius: 7px;
     
 }
 
@@ -83,6 +86,7 @@ th{
 .qpro span{
     padding: 15px;
 border: 2px solid gray;
+border-radius: 7px;
 }
 .rpro{
     width: 150px;
@@ -93,6 +97,7 @@ border: 2px solid gray;
 .rpro span{
    padding: 15px;
    border: 2px solid grey;
+   border-radius: 7px;
 }
 .ppro{
     width: 100px;
@@ -103,4 +108,5 @@ border: 2px solid gray;
 .ppro span{
    padding-left: 30px;
    border: 2px solid grey;
+   border-radius: 7px;
 }
