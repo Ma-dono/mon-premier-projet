@@ -9,14 +9,14 @@
   <body>
     <header>
       <div class="cart-logo">
-        <img src="images/logo;ex.png" alt="cart-logo" />
+        <img src="images/logo_ex-removebg-preview.png" alt="cart-logo" />
 
-        <h1>Your Cart</h1>
+        <h1>Your Shopping Cart</h1>
       </div>
     </header>
     <main>
       <div class="iproduct">
-        <table border="1">
+        <table >
           <tr>
             <th>Product</th>
             <th>Size</th>
@@ -31,7 +31,7 @@
                 <span class="npro-img">
                   <img src="images/dress01.jpg" alt="dress"
                 /></span>
-              </div>  <div><span>Dress</span></div>
+              </div>  <div><span class="tpro">Dress</span></div>
             </td>
             <td class="spro"><span>S</span></td>
             <td class="qpro"><span>1</span></td>
@@ -45,7 +45,7 @@
                 <span class="npro-img">
                   <img src="images/dress02.jpg" alt="dress"
                 /></span>
-              </div> <div><span>Dress</span></div>
+              </div> <div><span class="tpro">Dress</span></div>
             </td>
             <td class="spro"><span>S</span></td>
             <td class="qpro"><span>1</span></td>
@@ -59,7 +59,7 @@
                 <span class="npro-img">
                   <img src="images/shirt 1.jpg" alt="shirt"
                 /></span>
-              </div>  <div><span>Shirt</span></div>
+              </div>  <div><span class="tpro">Shirt</span></div>
             </td>
             <td class="spro"><span>S</span></td>
             <td class="qpro"><span>1</span></td>
@@ -73,7 +73,7 @@
                 <span class="npro-img">
                   <img src="images/T-shirt.jpg" alt="t-shirt"
                 /></span>
-              </div> <div><span>T-shirt</span></div>
+              </div> <div><span class="tpro">T-shirt</span></div>
             </td>
             <td class="spro"><span>S</span></td>
             <td class="qpro"><span>1</span></td>
@@ -83,6 +83,15 @@
         </table>
       </div>
     </main>
+
+   
+    <div class="quantity">
+<button class="btn minus-btn disabled" type="button">-</button>
+<input type="text" id="quantity" value="1">
+<button class="btn plus-btn " type="button">+</button>
+    </div>
+    <p class="totalprice"> <span> <i class="fa fa-rupee"></i></span>
+      <span id="price"> 100</span></p>
     <script src="js/main.js"></script>
   </body>
 </html>
