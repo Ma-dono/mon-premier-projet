@@ -20,7 +20,6 @@ table{
     margin-top: 50px;
     margin-left: 100px;
     width: 1000px;
-    background-color:;
     height: 800px;
     
 } 
@@ -81,14 +80,10 @@ th{
 
 .qpro{
     width: 150px;
-    
+   
    border-bottom: 2px solid grey;
 }
-.qpro span{
-    padding: 15px;
-border: 2px solid gray;
-border-radius: 7px;
-}
+
 .rpro{
     width: 150px;
    
@@ -152,4 +147,19 @@ P span{
     width: 445px;
     background-color: rgba(255, 255, 255, 0.534);;
     
+} div .qubtn{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+input[type=number]{
+    width: 30px;
+    height: 20px;
+    text-align: center;
+   
+}
+button{
+    height: 20px;
+    width: 30px;
 }
