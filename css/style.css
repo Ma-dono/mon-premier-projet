@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 *{
 margin: 10px;
-background-color: beige;
+background-color: rgba(233, 223, 203, 0.562);
 }
 .cart-logo{
     display: flex;
@@ -27,7 +27,7 @@ table{
 
 th{
     height: 50px;
-    background-color:;
+    
     border-bottom: 2px solid gray;
     font-size: xx-large;
     font-family: Lilita One;
@@ -36,7 +36,7 @@ th{
 .npro{
     width: 400px;
     height: 100px;
-    background-color: ;
+    
     border-bottom: 2px solid gray;
     justify-content: first baseline;
     
@@ -46,6 +46,7 @@ th{
 .tpro{
     padding-left: 20px;
     font-size: 20px;
+    font-family: Lilita One;
    
     
 }
@@ -67,7 +68,7 @@ th{
 
 .spro{
     width: 70px;
-    background-color:;
+    
     border-bottom: 2px solid gray;
    
 }
@@ -80,7 +81,7 @@ th{
 
 .qpro{
     width: 150px;
-    background-color: ;
+    
    border-bottom: 2px solid grey;
 }
 .qpro span{
@@ -90,7 +91,7 @@ border-radius: 7px;
 }
 .rpro{
     width: 150px;
-    background-color:;
+   
     border-bottom: 2px solid gray;
     
 }
@@ -101,7 +102,7 @@ border-radius: 7px;
 }
 .ppro{
     width: 100px;
-    background-color: ;
+    
     border-bottom: 2px solid gray;
     
 }
