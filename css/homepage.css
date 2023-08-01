@@ -100,10 +100,13 @@ nav ul li a{
     font-size: xx-large;
     background-color: white;
    transition: backround 0,5s;
+  
+ 
 }
 .col-2 a:hover{
     background-color: gray;
   color: white;
+  
 }
 .header-section{
     background-color:  rgba(233, 223, 203, 0.562) ;
@@ -136,7 +139,7 @@ nav ul li a{
     margin-top: 50px;
     border: 1px solid rgba(95, 91, 91, 0.822);
     border-radius: 10px;
-
+transition: transform 0.3s;
 
     
 }
@@ -173,10 +176,12 @@ h2{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px ;
     padding: 10px;
+   
 }
 .col-5 a:hover{
     background-color: gray;
-  color: white;
+  color: white; 
+ 
 }
 
 
@@ -226,11 +231,18 @@ textarea{
     font-family: Lobster;
     padding: 10px;
     margin: 20px;
-
+    transition: transform 0.3s;
     
 }
 
 .btn:hover{
     background-color: gray;
   color: white;
+  transform: translateY(-5px
+  );
+}
+form h2{
+    font-size: 50px;
+ text-decoration: ;
+    margin-bottom: 50px;
 }
