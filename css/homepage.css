@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
 *{ margin: 0;
     padding: 0;
    box-sizing: border-box;
 }
-body{
+body{ background-color: beige;
    
 }
 .navbar{
     display: flex;
     padding-left: 20px;
+    position: fixed;
+    background-color:rgba(240, 212, 196, 0.932) ; 
+  width: 1338px;
+    margin-left: -40px;
+    font-family: Lilita One;
+    
 
 }
 .logo img{
@@ -15,7 +26,9 @@ body{
 }
 nav{
     flex: 1;
-    text-align: right;
+    text-align: right; 
+    width: 1100px;
+    
     
 }
 nav ul {
@@ -27,30 +40,37 @@ nav ul li{
     display: inline-block;
     margin-right: 80px;
     margin-top: 35px;
-   
+    
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
-    font-size: larger;
-    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.932);
+    font-size: x-large;
+    font-weight: bolder; 
+   
     
     
 }
+
 .container{
     max-width: 1300px;
     margin: 20px auto;
     padding-left: 20px;
+    
     
 }
 .row{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-family: Loster;
+    
     
 }
-.col-2{ padding: 0px
-  
+.col-2{ padding: 0px;
+    margin-top: 120px;
+    color: rgb(94, 92, 92);
+    
 }
 .col-2 img{
    padding: 5 0px 0;
@@ -60,24 +80,30 @@ nav ul li a{
     font-size: 40px;
     line-height: 50px;
     margin: 20px;
+   
+  
 }
  p{
     font-size: larger;
     line-height: 30px;
     margin-bottom: 30px;
+    
+    
 }
 .col-2 a{
     text-decoration: none;
     border: 2px solid black;
-    padding: 7px;
-    border-radius: 4px;
-    color: white;
-    background-color: grey;
-   transition: backround 0,3s;
+    padding: 10px;
+    border-radius: 10px;
+    color: gray;
+    font-family: Lobster;
+    font-size: xx-large;
+    background-color: white;
+   transition: backround 0,5s;
 }
 .col-2 a:hover{
-    background-color: beige;
-    color: black;
+    background-color: gray;
+  color: white;
 }
 .header-section{
     background-color:  rgba(233, 223, 203, 0.562) ;
@@ -102,13 +128,53 @@ nav ul li a{
 .col-4{
     flex-basis: 25%;
    transition: transform 0.5s;
+   font-family: Roboto Slab;
+   color: gray;
    
 } 
 .col-4 img{
     margin-top: 50px;
+    border: 1px solid rgba(95, 91, 91, 0.822);
+    border-radius: 10px;
+
+
     
 }
 .col-4:hover{
     transform: translateY(-5px
     );
+}
+.col-5{
+    margin-top: 50px;
+}
+ .col-5 h1{
+    margin: 70px; 
+}
+.col-5 img {
+    margin-right: 20px;
+}
+h2{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 8px;
+    
+    font-family: Lobster;
+    color: rgb(0, 0, 0);
+    
+}
+.col-5 {
+    font-size: xx-large;
+    font-family: Lobster;
+}
+.col-5 a {
+    text-decoration: none;
+    color: gray;
+    background-color: white ;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px ;
+    padding: 10px;
+}
+.col-5 a:hover{
+    background-color: gray;
+  color: white;
 }
